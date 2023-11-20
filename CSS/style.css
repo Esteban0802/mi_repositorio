@@ -143,45 +143,83 @@ body {
   text-align: center;
 }
 
-.producto2P {
+.cont-pulseras {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px;
 }
-
-.fondoP {
+.cont-pulseras .fondoP {
   width: 220px;
   height: 350px;
   background-color: rgb(234, 233, 233);
   border-radius: 30px;
   margin: 20px;
 }
-
-.fondo2P {
-  width: 200px;
-  height: 30px;
-  margin: 10px;
-  color: white;
-  background-color: black;
-  border-radius: 30px;
-  text-align: center;
-}
-
-.precio {
-  border: 20px;
-  padding: 30px;
-  text-align: center;
-  justify-content: center;
-}
-
-.imagen1P {
+.cont-pulseras .fondoP .imagen1P {
   margin: 10px;
   width: 200px;
   height: 150px;
   border-radius: 30px;
 }
+.cont-pulseras .fondoP .titulo {
+  border: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.cont-pulseras .fondoP .descripcion {
+  border: 20px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+.cont-pulseras .fondoP .precio {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
 
+/*.producto2P {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.fondoP {
+    width: 220px;
+    height: 350px;
+    background-color: rgb(234, 233, 233);
+    border-radius: 30px;
+    margin: 20px;
+
+}
+
+.fondo2P {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.precio {
+    border: 20px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagen1P {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+}*/
 /* Pagina de Colgantes*/
 .bannerC {
   width: 100%;
@@ -196,6 +234,61 @@ body {
 .leyenda1C {
   padding: 30px;
   font-size: 1.7em;
+  text-align: center;
+}
+
+.cont-colgantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cont-colgantes .fondoP {
+  width: 220px;
+  height: 350px;
+  background-color: rgb(234, 233, 233);
+  border-radius: 30px;
+  margin: 20px;
+}
+.cont-colgantes .fondoP .imagen1P {
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  border-radius: 30px;
+}
+.cont-colgantes .fondoP .titulo {
+  border: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.cont-colgantes .fondoP .descripcion {
+  border: 20px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+.cont-colgantes .fondoP .precio {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.precio {
+  border: 20px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fondo2P {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
   text-align: center;
 }
 
@@ -216,70 +309,166 @@ body {
   text-align: center;
 }
 
-/*Nosotros*/
-.nosotros {
-  padding: 100px 0px 50px 100px;
-  font-size: 3rem;
-  text-align: left;
+.cont-anillos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cont-anillos .fondoP {
+  width: 220px;
+  height: 350px;
+  background-color: rgb(234, 233, 233);
+  border-radius: 30px;
+  margin: 20px;
+}
+.cont-anillos .fondoP .imagen1P {
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  border-radius: 30px;
+}
+.cont-anillos .fondoP .titulo {
+  border: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.cont-anillos .fondoP .descripcion {
+  border: 20px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+.cont-anillos .fondoP .precio {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
-.nosotros2 {
+/*Nosotros*/
+.nosotros1 {
+  font-size: 6rem;
+  padding: 50px 60px 50px 60px;
+}
+
+.cont_nosotros {
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-around;
 }
 
-.nosotros3 {
-  font-size: 1.5rem;
-  width: 400px;
-  height: 700px;
-}
-
-.tienda1 {
-  width: 450px;
-  height: 600px;
+.imagen1T {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 30rem;
   border-radius: 30px;
 }
 
-/*Testimonios*/
-.testimonios {
-  padding: 100px 0px 50px 100px;
-  font-size: 3rem;
-  text-align: left;
+.nosotros3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;
+  height: 35rem;
+  font-size: 1.1rem;
 }
 
-.testimonio1 {
-  padding: 0px 0px 50px 100px;
-  font-size: 1.5rem;
-}
-
-.testimonio2 {
-  padding: 0px 0px 100px 0px;
+.cont-testimonio {
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
 }
 
-.fondoT {
+.fondo {
   display: block;
   width: 300px;
-  height: 450px;
+  height: 500px;
   background-color: rgb(234, 233, 233);
   border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonio1 {
+  text-align: center;
+  padding: 17px;
+  font-size: 1.3rem;
+}
+
+.img-testimonio {
+  padding: 20px;
+  width: 260px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+/*.nosotros {
+    padding: 100px 0px 50px 100px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.nosotros2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.nosotros3 {
+    font-size: 1.5rem;
+    width: 400px;
+    height: 700px;
+}
+
+.tienda1 {
+    width: 450px;
+    height: 600px;
+    border-radius: 30px;
+}*/
+/*Testimonios*/
+/*.testimonios {
+    padding: 100px 0px 50px 100px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.testimonio1 {
+    padding: 0px 0px 50px 100px;
+    font-size: 1.5rem;
+}
+
+.testimonio2 {
+    padding: 0px 0px 100px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.fondoT {
+    display: block;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(234, 233, 233);
+    border-radius: 30px;
 }
 
 .persona {
-  padding: 40px;
-  text-align: center;
+    padding: 40px;
+    text-align: center;
 }
 
 .imagen1N {
-  padding: 20px;
-  width: 300px;
-  height: 200px;
-  border-radius: 30px;
-}
-
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}*/
 /*Pie*/
 .pie1 {
   padding: 100px 0px 100px 0px;
