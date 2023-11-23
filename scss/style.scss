@@ -74,12 +74,13 @@ hr {
         height: 18rem;
         border-radius: 80px;
         box-shadow: 10px 10px 10px rgb(185, 185, 185, 0.9);
+        &:hover{
+            transition: width 0.2s, height 0.2s;
+            width: 15.5rem;
+            height: 18.5rem;
+        }
     }
-    .imagen1_1:hover{
-        transition: width 0.2s, height 0.2s;
-        width: 15.5rem;
-        height: 18.5rem;
-    }
+    
     .texto1 {
         display: block;
         text-align: center;
