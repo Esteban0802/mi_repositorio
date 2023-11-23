@@ -4,6 +4,7 @@
   box-sizing: content-box;
   font-family: "Abel", sans-serif;
   font-size: 1.3rem;
+  overflow-x: hidden;
 }
 
 body {
