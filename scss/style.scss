@@ -35,10 +35,6 @@ body {
     }
 }
 
-/*
-.leyenda1_1 {
-    font-size: 3rem;
-} */
 
 /* Segundo Banner*/
 .banner2 {
@@ -141,7 +137,7 @@ hr {
     justify-content: space-around;
     .fondoP {
         width: 220px;
-        height: 350px;
+        height: 360px;
         background-color: rgb(234, 233, 233);
         border-radius: 30px;
         margin: 20px;
@@ -149,14 +145,15 @@ hr {
         .imagen1P {
             margin: 10px;
             width: 200px;
-            height: 150px;
+            height: 140px;
             border-radius: 30px;
         }
         .titulo {
-            border: 20px;
+            border: 10px;
             text-align: center;
             justify-content: center;
-            font-size: 1rem;
+            font-size: 0.7rem;
+            overflow-y: hidden;
         }
         .descripcion {
             border: 20px;
@@ -169,7 +166,7 @@ hr {
             padding: 10px;
             text-align: center;
             justify-content: center;
-            font-size: 1rem;
+            font-size: 0.7rem;
         }
     }
 }
@@ -214,6 +211,7 @@ hr {
             text-align: center;
             justify-content: center;
             font-size: 1rem;
+            overflow-y: hidden;
         }
         .descripcion {
             border: 20px;
@@ -272,6 +270,7 @@ hr {
             text-align: center;
             justify-content: center;
             font-size: 1rem;
+            overflow-y: hidden;
         }
         .descripcion {
             border: 20px;
