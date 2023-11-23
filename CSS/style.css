@@ -453,7 +453,6 @@ hr {
   height: 200px;
 }
 
-/*Media Query*/
 @media screen and (max-width: 1000px) {
   .productos1_2 {
     display: block;
