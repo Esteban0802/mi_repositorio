@@ -31,6 +31,7 @@ body {
   text-align: center;
 }
 .leyenda1 .leyenda1_1 {
+  padding: 0px 20px 0px 20px;
   font-size: 3rem;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 .leyenda1_2 {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 30px 100px 30px;
   font-size: 1.7em;
   text-align: center;
 }
@@ -133,6 +134,7 @@ hr {
   border-radius: 30px;
   margin: 20px;
   box-shadow: 10px 10px 10px rgba(185, 185, 185, 0.9);
+  overflow-y: hidden;
 }
 .cont-pulseras .fondoP .imagen1P {
   margin: 10px;
@@ -190,6 +192,7 @@ hr {
   border-radius: 30px;
   margin: 20px;
   box-shadow: 10px 10px 10px rgba(185, 185, 185, 0.9);
+  overflow-y: hidden;
 }
 .cont-colgantes .fondoP .imagen1P {
   margin: 10px;
@@ -247,6 +250,7 @@ hr {
   border-radius: 30px;
   margin: 20px;
   box-shadow: 10px 10px 10px rgba(185, 185, 185, 0.9);
+  overflow-y: hidden;
 }
 .cont-anillos .fondoP .imagen1P {
   margin: 10px;
@@ -277,47 +281,48 @@ hr {
 
 /*Nosotros*/
 .nosotros1 {
-  font-size: 6rem;
+  font-size: 3rem;
   padding: 50px 60px 50px 60px;
 }
 
 .cont_nosotros {
-  width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-around;
 }
 .cont_nosotros .nosotros3 {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 25rem;
-  height: 30rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding: 0px 50px;
+  text-align: justify;
 }
 .cont_nosotros .tienda {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20rem;
-  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px auto 20px auto;
+  padding: 0px 50px;
 }
 .cont_nosotros .tienda .imagen1T {
-  width: 20rem;
-  height: 28rem;
+  max-width: 100%;
+  height: auto;
   border-radius: 30px;
   box-shadow: 10px 10px 10px rgba(185, 185, 185, 0.9);
 }
 
 .testimonios {
-  font-size: 6rem;
+  font-size: 3rem;
   padding: 10px 60px 10px 60px;
 }
 
 .testimonioL {
-  text-align: center;
   padding: 20px;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .cont-testimonio {
@@ -351,41 +356,47 @@ hr {
 
 /*Pie*/
 .pie1 {
-  padding: 0px 0px 50px 0px;
-  font-size: 2.5rem;
+  padding: 0px 20px 50px 20px;
+  max-width: 100%;
+  height: auto;
+  font-size: 3rem;
   text-align: center;
 }
 
 /*Pagina Contacto*/
 .contacto {
-  padding: 100px 0px 100px 100px;
+  padding: 100px 0px 100px 50px;
+  max-width: 80%;
+  height: auto;
   font-size: 3rem;
   text-align: left;
 }
 
 .cont-contacto {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 50%;
   justify-content: space-around;
 }
 .cont-contacto .contacto3 {
-  display: block;
-  font-size: 1.5rem;
-  width: 25rem;
-  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   margin-left: auto;
   margin-right: auto;
+  max-width: 80%;
+  height: auto;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  text-align: justify;
 }
-
-.form {
+.cont-contacto .form {
   display: block;
-  width: 25rem;
-  height: 30rem;
+  max-width: 80%;
+  height: auto;
   margin: 20px auto 20px auto;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0px 10px;
 }
-.form input {
+.cont-contacto .form input {
   width: 100%;
   height: 30px;
   border-radius: 2px;
@@ -393,14 +404,14 @@ hr {
   border-radius: 5px;
   background-color: rgb(223, 223, 223);
 }
-.form textarea {
+.cont-contacto .form textarea {
   width: 100%;
   height: 100px;
   border-radius: 2px;
   border: none;
   background-color: rgb(223, 223, 223);
 }
-.form button {
+.cont-contacto .form button {
   font-family: "Abel", sans-serif;
   border-radius: 5px;
   width: 80px;
@@ -408,7 +419,9 @@ hr {
 
 /*Ubicacion*/
 .ubicacion {
-  padding: 50px 0px 50px 100px;
+  padding: 100px 0px 100px 50px;
+  max-width: 80%;
+  height: auto;
   font-size: 3rem;
   text-align: left;
 }
@@ -420,20 +433,27 @@ hr {
 }
 .cont-ubicacion .ubicacion2 {
   display: block;
-  font-size: 1.5rem;
-  width: 25rem;
-  height: 25rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: 80%;
+  height: auto;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  text-align: justify;
 }
 .cont-ubicacion span {
   text-decoration: underline;
   text-transform: uppercase;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 .mapa {
-  width: 31rem;
-  height: 31rem;
+  max-width: 80%;
+  height: 25rem;
   margin-left: auto;
   margin-right: auto;
 }
