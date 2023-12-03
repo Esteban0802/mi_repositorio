@@ -1,0 +1,42 @@
+@for $i from 1 to 4{
+    .cont-producto#{$i}{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .fondoP {
+            width: 220px;
+            height: 360px;
+            background-color: rgb(234, 233, 233);
+            border-radius: 30px;
+            margin: 20px;
+            box-shadow: 10px 10px 10px rgb(185, 185, 185, 0.9);
+            overflow-y: hidden;
+            .imagen1P {
+                margin: 10px;
+                width: 200px;
+                height: 140px;
+                border-radius: 30px;
+            }
+            .titulo {
+                border: 10px;
+                text-align: center;
+                justify-content: center;
+                font-size: $tamanio_descripcion;
+                overflow-y: hidden;
+            }
+            .descripcion {
+                border: 20px;
+                padding: 0px 10px 0px 10px;
+                text-align: center;
+                justify-content: center;
+                font-size: $tamanio_descripcion;
+            }
+            .precio {
+                padding: 10px;
+                text-align: center;
+                justify-content: center;
+                font-size: $tamanio_precio;
+            }
+        }
+    }
+}

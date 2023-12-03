@@ -1,0 +1,19 @@
+$descuento:"";
+
+@if ($descuento == "10"){
+    body{
+        background: linear-gradient(rgba(242, 242, 244, 0.95), rgba(242, 242, 244, 0.95)),
+        url(../Fotos/10.png);
+        
+    }
+
+}@else if ($descuento == "20"){
+    body{
+        background-image: linear-gradient(rgba(242, 242, 244, 0.95), rgba(242, 242, 244, 0.95)),
+        url(../Fotos/20.png);
+    }
+}@else{
+    body{
+        background-color: white;
+    }
+}
