@@ -498,5 +498,40 @@ hr {
     @include tamanio(200px, 300px);
 }
 
+/*Pagina Error 404*/
+
+.error {
+    display: block;
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+}
+
+.e-404 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0px 0px 0pxpx 0px;
+    height: 18rem;
+}
+
+.img-404 {
+    width: 15rem;
+}
+
+.cuatro {
+    height: 100%;
+    font-size: 10rem;
+}
+
+.back {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 @import "./partials/queries";
 @import "./partials/bucles";
