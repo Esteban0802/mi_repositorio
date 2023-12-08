@@ -508,8 +508,6 @@ hr {
 
 .e-404 {
     display: flex;
-    /*grid-template-columns: auto auto auto;
-    justify-content: space-evenly;*/
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -517,8 +515,8 @@ hr {
 }
 
 .img-404 {
-    max-width: 100%;
-    height: auto;
+    width: 13rem;
+    height: 13rem;
 }
 
 .cuatro {
